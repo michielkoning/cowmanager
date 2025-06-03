@@ -23,10 +23,20 @@ useSeoMeta({
 
     <work-experience />
 
-    <h2>Opleidingen</h2>
+    <h2>Opleidingen en Certificaten</h2>
     <ul>
-      <li>Cursus Grafisch Vormgeving, Grafisch Lyceum Utrecht</li>
-      <li>Communicatie Systemen, Hoge school van Arnhem en Nijmegen</li>
+      <li>
+        Digitale toegankelijkheid voor Front-end development bij Stichting
+        Accessibility
+      </li>
+      <li>Cursus Grafisch Vormgeving bij het Grafisch Lyceum Utrecht</li>
+      <li>Communicatie Systemen bij de Hoge school van Arnhem en Nijmegen</li>
     </ul>
   </div>
 </template>
+
+<style scoped>
+li {
+  margin-bottom: 0.5em;
+}
+</style>
