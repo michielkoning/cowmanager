@@ -104,7 +104,7 @@
           <div class="company">
             <h3>Brainbrothers</h3>
             <time>2014 - 2018</time><br />
-            Senior Frontend Consultant
+            Frontend Consultant
           </div>
         </div>
         <div>
