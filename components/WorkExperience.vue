@@ -12,7 +12,7 @@
           <div class="company">
             <h3>Valtech</h3>
             2018 - heden<br />
-            Frontend Developer Architect<br />
+            Frontend Architect<br />
           </div>
         </div>
         <div>
