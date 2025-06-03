@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   modules: ["@nuxt/content", "@nuxt/fonts", "@nuxt/eslint"],
   app: {
     head: {
+      htmlAttrs: {
+        lang: "nl",
+      },
       meta: [
         {
           name: "viewport",
