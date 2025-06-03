@@ -1,19 +1,7 @@
 <template>
-  <div>
-    <h1>CV</h1>
-    <the-profile />
-
-    <h2>Specaliteiten</h2>
-    <p>HTML, Css, UI, Accessibility, Seo, Performance</p>
-
-    <h2>Gewerkt met</h2>
-    <p>
-      Nuxtjs, Vuejs, Reactjs, Azure, Netlify, Supabase, Vitest, Jest, NodeJs,
-      Sass, Less, Contentstack, Contentful, Sitecore, Scrum, NX, React Admin
-    </p>
-
+  <div class="experience">
     <div class="header">
-      <div class="col-1">
+      <div class="company">
         <h2>Bedrijf</h2>
       </div>
       <div class="col-2"><h2>Projecten</h2></div>
@@ -21,9 +9,9 @@
     <ul>
       <li>
         <div>
-          <div class="col-1">
+          <div class="company">
             <h3>Valtech</h3>
-            2014 - heden<br />
+            2018 - heden<br />
             Frontend Developer Architect<br />
           </div>
         </div>
@@ -40,8 +28,8 @@
             moest worden gemigreerd van Nuxt 2 naar Nuxt 3. Om onderscheid te
             maken tussen data en presentatie heb ik bij Robeco de Backend For
             the Frontend (BFF) geïntroduceerd. De BFF is onderdeel van de Nuxtjs
-            frontend en wordt ook onderhouden door de frontend developers. Met
-            de BFF hebben we ook diverse perfomanceoptimalisaties kunnen
+            frontend en wordt onderhouden door de frontend developers. Met de
+            BFF hebben we ook diverse perfomanceoptimalisaties kunnen
             doorvoeren.
           </p>
 
@@ -97,25 +85,34 @@
           <nuxt-link
             to="https://www.volkswagen.nl/werkplaatsafspraak#/"
             external
+            target="_blank"
             >Werkplaatsplanner</nuxt-link
           >
-          en de Proefrtiplanner. De microfrontends zinj in een monorepo opgezet,
-          zodat we eenvoudig componenten en functionaliteiten konden delen
+          en de
+          <nuxt-link
+            to="https://www.skoda.nl/proefritplanner#/?modelid=MODELTYPE_ELROQ#/"
+            external
+            target="_blank"
+          >
+            Proefrtiplanner</nuxt-link
+          >. De microfrontends zijn in een monorepo opgezet, zodat we eenvoudig
+          componenten en functionaliteiten konden delen
         </div>
       </li>
       <li>
         <div>
-          <div class="col-1">
+          <div class="company">
             <h3>Brainbrothers</h3>
-            <time>2010 - 2014</time><br />
+            <time>2014 - 2018</time><br />
             Senior Frontend Consultant
           </div>
         </div>
         <div>
           <h3>Blink uitgevers, Den Bosch</h3>
           <p>
-            Een lespakket voor een muziekles uitgewerkt voor het basisonderwijs,
-            geoptimaliseerd voor een Smart Board.
+            Voor uitgevers Blink heb ik gewerkt aan een lespakket voor een
+            muziekles uitgewerkt voor het basisonderwijs, geoptimaliseerd voor
+            Smart Boards.
           </p>
           <h3>Bol.com, Utrecht</h3>
           <p>
@@ -130,8 +127,8 @@
 
           <h3>Volksbank, Den Bosch en Utrecht</h3>
           <p>
-            Bij de Volksbank heb ik Ik was betrokken bij het opzetten van de
-            nieuwe responsive website van
+            Bij de Volksbank was ik onderdeel van het team om de nieuwe website
+            voor
 
             <nuxt-link
               external
@@ -140,38 +137,39 @@
             >
               BLG wonen
             </nuxt-link>
-            .
+            te ontwikkelen.
           </p>
           <h3>Online.nl, Hilversum</h3>
           Als de frontenddeveloper van het
           <nuxt-link external to="https://www.online.nl/" target="_blank">
             online.nl
           </nuxt-link>
-          team leverde ik de Css en de HTML aan voor de componenten, die
-          vervolgens door backend developers werden omgezet in Ektron component.
+          team leverde ik de CSS- en de HTMLbestanden aan voor de componenten,
+          die vervolgens door backend developers werden omgezet in Ektron
+          component.
         </div>
       </li>
 
       <li>
         <div>
-          <div class="col-1">
+          <div class="company">
             <h3>4Net Interactive</h3>
-            2001 - 2010<br />Senior Frontend Developer
+            2007 - 2014<br />Senior Frontend Developer
           </div>
         </div>
         <div>
           <h3>Diverse projecten</h3>
           Bij 4net interactive heb ik als frontend developer meegedraaid bij
           diverse projecten, waaronder voor de Efteling, Ajax, Feyenoord, PSV,
-          ANP, Pip Studio KNVB
+          ANP, Pip Studio en KNVB
         </div>
       </li>
 
       <li>
         <div>
-          <div class="col-1">
+          <div class="company">
             <h3>Loesje</h3>
-            2001 - heden<br />Senior Frontend Developer
+            2008 - heden<br />Websitebouwer
           </div>
         </div>
         <div>
@@ -181,43 +179,48 @@
           <nuxt-link external to="https://www.loesje.nl/" target="_blank">
             website
           </nuxt-link>
-          en de webshop voor Loesje,nl ontworpen en gebouwd. De website is
-          gebouwd in nuxt 3 en wordt gehost op netlify. De webshop draait nog op
-          woocommerce, maar de headless variant is nog in ontwikkeling Daarnaast
-          heb ik de
+          en de webshop voor Loesje.nl ontworpen en gebouwd. De website is
+          gebouwd in Nuxt 3, draait headless op WordPress en wordt gehost op
+          Netlify. De webshop draait nog op woocommerce, maar de headless
+          variant daarvan is nog in ontwikkeling. Daarnaast heb ik de
           <nuxt-link
             external
             to="https://apps.apple.com/nl/app/loesje-posters/id910472463?l=nl&ls=1"
             target="_blank"
           >
-            app
+            iOs app
           </nuxt-link>
           ontwikkeld in React Admin.
         </div>
       </li>
-    </ul>
-
-    <h2>Opleidingen</h2>
-    <ul>
-      <li>Cursus Grafisch Vormgeving Grafisch Lyceum Utrecht</li>
-      <li>Communicatie Systemen Hoge school van Arnhem en Nijmegen</li>
     </ul>
   </div>
 </template>
 
 <style scoped>
 ul {
+  font-size: 0.9em;
   list-style: none outside;
   margin: 0 0 1em;
   padding-left: 0;
 }
 
+.header {
+  margin-top: 3em;
+}
+
 .header,
 li {
   display: grid;
-  grid-template-columns: 15em auto;
   position: relative;
-  gap: 2em;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 64rem) {
+  .header,
+  li {
+    grid-template-columns: 17rem auto;
+  }
 }
 
 li {
@@ -225,13 +228,8 @@ li {
   padding-left: 0;
 }
 
-.col-1 {
+.company {
   position: sticky;
   top: 1em;
-}
-
-.highlight {
-  font-size: 1.1875rem;
-  line-height: 2.25rem;
 }
 </style>

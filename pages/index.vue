@@ -1,19 +1,32 @@
-<script setup lang="ts">
-const { data } = await useAsyncData(() =>
-  queryCollection("content").path("/").first(),
-);
+<script lang="ts" setup>
+useSeoMeta({
+  title: "CV - Michiel Koning",
+  description:
+    "Ervaren frontend developer met een grafische achtergrond en een focus op performance en accessibility.",
+});
 </script>
 
 <template>
   <div>
-    <content-renderer v-if="data" :value="data" />
+    <h1>CV</h1>
+    <the-profile />
+
+    <h2>Specaliteiten</h2>
+    <p>HTML | CSS | UI | Accessibility | Seo | Performance</p>
+
+    <h2>Gewerkt met</h2>
+    <p>
+      Nuxtjs | Vuejs | Reactjs | Azure | Netlify | Supabase | Vitest | Jest |
+      NodeJs | Sass | Less | Contentstack | Contentful | Sitecore | Scrum | NX |
+      React Admin
+    </p>
+
+    <work-experience />
+
+    <h2>Opleidingen</h2>
+    <ul>
+      <li>Cursus Grafisch Vormgeving, Grafisch Lyceum Utrecht</li>
+      <li>Communicatie Systemen, Hoge school van Arnhem en Nijmegen</li>
+    </ul>
   </div>
 </template>
-
-<style scoped>
-div {
-  font-family: "Fira Sans", sans-serif;
-  line-height: 1.875rem;
-  font-weight: 400;
-}
-</style>

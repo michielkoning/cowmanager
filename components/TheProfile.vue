@@ -19,8 +19,6 @@
 
 <style scoped>
 .profile {
-  font-size: 1.1875rem;
-  line-height: 2.25rem;
   margin-bottom: 2em;
 }
 </style>
