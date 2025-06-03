@@ -27,7 +27,7 @@ main {
   box-shadow: 0 10px 99px rgba(0, 0, 0, 0.15);
   padding: 2rem 1rem;
   margin-inline: auto;
-  max-width: 75rem;
+  max-width: 70rem;
   background: #fff;
 }
 
