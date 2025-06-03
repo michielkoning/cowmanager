@@ -14,8 +14,5 @@ main {
   margin-inline: auto;
   max-width: 75rem;
   background: #fff;
-  font-family: "Fira Sans", sans-serif;
-  line-height: 1.875rem;
-  font-weight: 400;
 }
 </style>

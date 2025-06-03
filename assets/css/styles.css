@@ -9,4 +9,78 @@
 body {
   background: #fff;
   margin: 0;
+
+  
+  color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Fira Sans", sans-serif;
+  line-height: 1.875rem;
+  font-weight: 400;
+
+}
+
+a {
+  color: currentcolor;
+  text-underline-offset: 2px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-family: ariana-pro-heavy,times;
+  font-weight: 900;
+  margin: 0 0 1.5rem;
+  text-transform: uppercase;
+}
+
+.h1, h1 {
+  font-size: 1.375rem;
+  letter-spacing: .88px;
+  line-height: 1.875rem;
+}
+
+
+@media screen and (min-width: 64rem) {
+  .h1, h1 {
+    font-size: 3rem;
+    letter-spacing: 1.92px;
+    line-height: 3.5625rem;
+  }
+}
+
+p {
+  margin: 0 0 1.5em
+}
+
+h2 {
+  font-size: 2rem;
+    letter-spacing: 1.6px;
+    line-height: 2.5rem;
+}
+
+@font-face {
+  font-display:swap;
+  font-family:ariana-pro;
+  font-stretch:normal;
+  font-style:normal;
+  font-weight:700;
+  src:url(https://use.typekit.net/af/d19d69/00000000000000007735cbe3/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff2"),
+  url(https://use.typekit.net/af/d19d69/00000000000000007735cbe3/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("woff"),
+  url(https://use.typekit.net/af/d19d69/00000000000000007735cbe3/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("opentype"),
+  url(https://use.typekit.net/af/d19d69/00000000000000007735cbe3/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3) format("truetype")
+}
+@font-face {
+  font-display:swap;
+  font-family:ariana-pro-heavy;
+  font-stretch:normal;
+  font-style:normal;
+  font-weight:900;
+  src:url(https://use.typekit.net/af/9e7e9b/00000000000000007735cbe7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("woff2"),
+  url(https://use.typekit.net/af/9e7e9b/00000000000000007735cbe7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("woff"),
+  url(https://use.typekit.net/af/9e7e9b/00000000000000007735cbe7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3) format("opentype")
 }
