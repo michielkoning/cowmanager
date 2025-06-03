@@ -173,7 +173,10 @@
           </div>
         </div>
         <div>
-          <h3>Website en iOs App</h3>
+          <h3>
+            Website
+            <!-- en iOs App -->
+          </h3>
           Als vrijwilliger heb ik de
 
           <nuxt-link external to="https://www.loesje.nl/" target="_blank">
@@ -182,7 +185,8 @@
           en de webshop voor Loesje.nl ontworpen en gebouwd. De website is
           gebouwd in Nuxt 3, draait headless op WordPress en wordt gehost op
           Netlify. De webshop draait nog op woocommerce, maar de headless
-          variant daarvan is in ontwikkeling. Daarnaast heb ik de
+          variant daarvan is in ontwikkeling.
+          <!-- Daarnaast heb ik de
           <nuxt-link
             external
             to="https://apps.apple.com/nl/app/loesje-posters/id910472463?l=nl&ls=1"
@@ -190,7 +194,7 @@
           >
             iOs app</nuxt-link
           >
-          ontwikkeld in React Admin.
+          ontwikkeld in React Admin. -->
         </div>
       </li>
     </ul>
