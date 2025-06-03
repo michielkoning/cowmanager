@@ -4,7 +4,7 @@
       <div class="company">
         <h2>Bedrijf</h2>
       </div>
-      <div class="col-2"><h2>Projecten</h2></div>
+      <div><h2>Projecten</h2></div>
     </div>
     <ul>
       <li>
@@ -15,7 +15,7 @@
             Frontend Developer Architect<br />
           </div>
         </div>
-        <div class="col-2">
+        <div>
           <h3>Robeco, Rotterdam</h3>
           <p>
             De website
