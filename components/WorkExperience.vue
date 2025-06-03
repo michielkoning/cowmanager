@@ -28,8 +28,8 @@
             moest worden gemigreerd van Nuxt 2 naar Nuxt 3. Om onderscheid te
             maken tussen data en presentatie heb ik bij Robeco de Backend For
             the Frontend (BFF) geïntroduceerd. De BFF is onderdeel van de Nuxtjs
-            frontend en wordt onderhouden door de frontend developers. Met de
-            BFF hebben we ook diverse perfomanceoptimalisaties kunnen
+            frontend en wordt onderhouden door de frontend developers. Dankzij
+            de BFF hebben we ook diverse perfomanceoptimalisaties kunnen
             doorvoeren.
           </p>
 
