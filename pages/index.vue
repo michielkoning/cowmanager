@@ -18,7 +18,7 @@ useSeoMeta({
     <p>
       Nuxtjs | Vuejs | Reactjs | Azure | Netlify | Supabase | Vitest | Jest |
       NodeJs | Sass | Less | Contentstack | Contentful | Sitecore | Scrum | NX |
-      React Admin
+      React Admin | PWA
     </p>
 
     <work-experience />
