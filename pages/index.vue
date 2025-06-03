@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 useSeoMeta({
-  title: "CV - Michiel Koning",
+  title: "CV",
   description:
     "Ervaren frontend developer met een grafische achtergrond en een focus op performance en accessibility.",
 });
@@ -18,7 +18,7 @@ useSeoMeta({
     <p>
       Nuxtjs | Vuejs | Reactjs | Azure | Netlify | Supabase | Vitest | Jest |
       NodeJs | Sass | Less | Contentstack | Contentful | Sitecore | Scrum | NX |
-      React Admin | PWA
+      React Admin | PWA | Figma | Sketch
     </p>
 
     <work-experience />

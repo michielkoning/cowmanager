@@ -1,3 +1,11 @@
+<script setup lang="ts">
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - Michiel Koning` : "Michiel Koning";
+  },
+});
+</script>
+
 <template>
   <main>
     <nuxt-page />

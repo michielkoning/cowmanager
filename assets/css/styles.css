@@ -16,13 +16,12 @@
 }
 
 html {
-    font-size: clamp(16px,2.75vw,18px);
+  font-size: clamp(16px,2.75vw,18px);
 }
 
 body {
   background: #fff;
   margin: 0;
-
   
   color: #0a0a0a;
   -webkit-font-smoothing: antialiased;

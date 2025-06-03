@@ -201,31 +201,36 @@
 ul {
   font-size: 0.9em;
   list-style: none outside;
-  margin: 0 0 1em;
+  margin: 0 0 3em;
   padding-left: 0;
 }
 
 .header {
   margin-top: 3em;
+  display: none;
 }
 
 .header,
 li {
-  display: grid;
   position: relative;
-  gap: 2rem;
 }
 
 @media screen and (min-width: 64rem) {
   .header,
   li {
+    display: grid;
+    gap: 2rem;
     grid-template-columns: 17rem auto;
   }
 }
 
 li {
-  margin: 0 0 4em;
+  gap: 2rem;
+  display: grid;
+  margin: 0 0 2em;
+  padding-bottom: 2em;
   padding-left: 0;
+  border-bottom: 1px solid #ccc;
 }
 
 .company {
