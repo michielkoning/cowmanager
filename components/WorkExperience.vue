@@ -41,8 +41,8 @@
               to="https://www.cz.nl/zorgverzekering/premie-berekenen"
               target="_blank"
             >
-              aanmeldformulier
-            </nuxt-link>
+              aanmeldformulier</nuxt-link
+            >
             voor verzekeringen hebben we losgetrokken van Sitecore en naar een
             headless omgeving gebaseerd op Reactjs. De diverse formulieren zijn
             in een monorepo (NX) opgezet, zodat we eenvoudig componenten en
@@ -57,29 +57,29 @@
             to="https://configurator.volkswagen.nl/"
             target="_blank"
           >
-            Volkswagen </nuxt-link
+            Volkswagen</nuxt-link
           >,
           <nuxt-link
             external
             to="https://configurator.skoda.nl/"
             target="_blank"
           >
-            Skoda </nuxt-link
+            Skoda</nuxt-link
           >,
           <nuxt-link
             external
             to="https://configurator.seat.nl/"
             target="_blank"
           >
-            Seat
-          </nuxt-link>
+            Seat</nuxt-link
+          >
           en
           <nuxt-link
             external
             to="https://configurator.cupraofficial.nl/"
             target="_blank"
           >
-            Cupra </nuxt-link
+            Cupra</nuxt-link
           >. Daarnaast hebben we diverse micfrofrontends gebouwd, waaronder de
 
           <nuxt-link
@@ -120,8 +120,8 @@
             website uit te faseren, was ik als frontend developer onderdeel van
             het team dat verantwoordelijk was voor de productpagina van
             <nuxt-link external to="https://www.bol.com/nl/nl/" target="_blank">
-              bol.com
-            </nuxt-link>
+              bol.com</nuxt-link
+            >
             .
           </p>
 
@@ -135,15 +135,15 @@
               to="https://www.blgwonen.nl/home.html"
               target="_blank"
             >
-              BLG wonen
-            </nuxt-link>
+              BLG wonen</nuxt-link
+            >
             te ontwikkelen.
           </p>
           <h3>Online.nl, Hilversum</h3>
           Als de frontenddeveloper van het
           <nuxt-link external to="https://www.online.nl/" target="_blank">
-            online.nl
-          </nuxt-link>
+            online.nl</nuxt-link
+          >
           team leverde ik de CSS- en de HTMLbestanden aan voor de componenten,
           die vervolgens door backend developers werden omgezet in Ektron
           component.
@@ -177,8 +177,8 @@
           Als vrijwilliger heb ik de
 
           <nuxt-link external to="https://www.loesje.nl/" target="_blank">
-            website
-          </nuxt-link>
+            website</nuxt-link
+          >
           en de webshop voor Loesje.nl ontworpen en gebouwd. De website is
           gebouwd in Nuxt 3, draait headless op WordPress en wordt gehost op
           Netlify. De webshop draait nog op woocommerce, maar de headless
@@ -188,8 +188,8 @@
             to="https://apps.apple.com/nl/app/loesje-posters/id910472463?l=nl&ls=1"
             target="_blank"
           >
-            iOs app
-          </nuxt-link>
+            iOs app</nuxt-link
+          >
           ontwikkeld in React Admin.
         </div>
       </li>
