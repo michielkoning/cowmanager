@@ -230,7 +230,9 @@ li {
   margin: 0 0 2em;
   padding-bottom: 2em;
   padding-left: 0;
-  border-bottom: 1px solid #ccc;
+  &:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
 }
 
 .company {
