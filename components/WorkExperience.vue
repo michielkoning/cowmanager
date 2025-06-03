@@ -182,7 +182,7 @@
           en de webshop voor Loesje.nl ontworpen en gebouwd. De website is
           gebouwd in Nuxt 3, draait headless op WordPress en wordt gehost op
           Netlify. De webshop draait nog op woocommerce, maar de headless
-          variant daarvan is nog in ontwikkeling. Daarnaast heb ik de
+          variant daarvan is in ontwikkeling. Daarnaast heb ik de
           <nuxt-link
             external
             to="https://apps.apple.com/nl/app/loesje-posters/id910472463?l=nl&ls=1"
