@@ -19,6 +19,16 @@ body {
   line-height: 1.875rem;
   font-weight: 400;
 
+
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    background-color: #be0000;
+    height: 2em;
+  }
+
 }
 
 a {
@@ -59,8 +69,8 @@ p {
 
 h2 {
   font-size: 2rem;
-    letter-spacing: 1.6px;
-    line-height: 2.5rem;
+  letter-spacing: 1.6px;
+  line-height: 2.5rem;
 }
 
 @font-face {

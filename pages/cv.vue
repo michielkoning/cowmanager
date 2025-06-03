@@ -3,11 +3,6 @@
     <h1>CV</h1>
     <the-profile />
 
-    <p class="highlight">
-      Ervaren frontend developer met een grafische achtergrond en een focus op
-      performance en accessibility.
-    </p>
-
     <h2>Specaliteiten</h2>
     <p>HTML, Css, UI, Accessibility, Seo, Performance</p>
 
@@ -55,7 +50,7 @@
             Het
             <nuxt-link
               external
-              to="https://www.robeco.com/en-int/"
+              to="https://www.cz.nl/zorgverzekering/premie-berekenen"
               target="_blank"
             >
               aanmeldformulier
@@ -71,21 +66,21 @@
           whitelabel opgezet en ondersteunt de merken
           <nuxt-link
             external
-            to="https://www.robeco.com/en-int/"
+            to="https://configurator.volkswagen.nl/"
             target="_blank"
           >
             Volkswagen </nuxt-link
           >,
           <nuxt-link
             external
-            to="https://www.robeco.com/en-int/"
+            to="https://configurator.skoda.nl/"
             target="_blank"
           >
             Skoda </nuxt-link
           >,
           <nuxt-link
             external
-            to="https://www.robeco.com/en-int/"
+            to="https://configurator.seat.nl/"
             target="_blank"
           >
             Seat
@@ -93,14 +88,19 @@
           en
           <nuxt-link
             external
-            to="https://www.robeco.com/en-int/"
+            to="https://configurator.cupraofficial.nl/"
             target="_blank"
           >
             Cupra </nuxt-link
           >. Daarnaast hebben we diverse micfrofrontends gebouwd, waaronder de
-          Service Appointment Tool en de Proefrtiplanner. De microfrontends zinj
-          in een monorepo opgezet, zodat we eenvoudig componenten en
-          functionaliteiten konden delen
+
+          <nuxt-link
+            to="https://www.volkswagen.nl/werkplaatsafspraak#/"
+            external
+            >Werkplaatsplanner</nuxt-link
+          >
+          en de Proefrtiplanner. De microfrontends zinj in een monorepo opgezet,
+          zodat we eenvoudig componenten en functionaliteiten konden delen
         </div>
       </li>
       <li>
@@ -108,7 +108,7 @@
           <div class="col-1">
             <h3>Brainbrothers</h3>
             <time>2010 - 2014</time><br />
-            Senior Frontend Developer
+            Senior Frontend Consultant
           </div>
         </div>
         <div>
@@ -122,11 +122,7 @@
             Om de website volledige responsive te maken, met als doel de mobiele
             website uit te faseren, was ik als frontend developer onderdeel van
             het team dat verantwoordelijk was voor de productpagina van
-            <nuxt-link
-              external
-              to="https://www.robeco.com/en-int/"
-              target="_blank"
-            >
+            <nuxt-link external to="https://www.bol.com/nl/nl/" target="_blank">
               bol.com
             </nuxt-link>
             .
@@ -201,13 +197,11 @@
       </li>
     </ul>
 
-    <!-- Opleidingen
-Cursus Grafisch Vormgeving 
-Grafisch Lyceum Utrecht
-
-Communicatie Systemen
-Hoge school van Arnhem en Nijmegen
- -->
+    <h2>Opleidingen</h2>
+    <ul>
+      <li>Cursus Grafisch Vormgeving Grafisch Lyceum Utrecht</li>
+      <li>Communicatie Systemen Hoge school van Arnhem en Nijmegen</li>
+    </ul>
   </div>
 </template>
 
@@ -237,7 +231,6 @@ li {
 }
 
 .highlight {
-  text-align: center;
   font-size: 1.1875rem;
   line-height: 2.25rem;
 }

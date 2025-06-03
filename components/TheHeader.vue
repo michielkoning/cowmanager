@@ -1,7 +1,5 @@
 <template>
-  <header>
-    <nav>asdsd</nav>
-  </header>
+  <header></header>
 </template>
 
 <style scoped>
@@ -15,5 +13,11 @@ header {
 nav {
   margin-inline: auto;
   max-width: 75rem;
+}
+
+@media print {
+  header {
+    display: none;
+  }
 }
 </style>
