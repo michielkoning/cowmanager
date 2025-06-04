@@ -29,7 +29,7 @@ useSeoMeta({
         Digitale toegankelijkheid voor Front-end development bij Stichting
         Accessibility
       </li>
-      <li>Cursus Grafisch Vormgeving bij het Grafisch Lyceum Utrecht</li>
+      <li>Grafisch Vormgeving bij het Grafisch Lyceum Utrecht</li>
       <li>Communicatie Systemen bij de Hoge school van Arnhem en Nijmegen</li>
     </ul>
   </div>

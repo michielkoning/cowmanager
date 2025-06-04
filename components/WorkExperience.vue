@@ -46,7 +46,7 @@
             voor verzekeringen hebben we losgetrokken van Sitecore en naar een
             headless omgeving gebaseerd op Reactjs. De diverse formulieren zijn
             in een monorepo (NX) opgezet, zodat we eenvoudig componenten en
-            functionaliteiten konden delen,
+            functionaliteiten konden delen.
           </p>
 
           <h3>PON, Leusden</h3>
@@ -145,8 +145,7 @@
             online.nl</nuxt-link
           >
           team leverde ik de CSS- en de HTMLbestanden aan voor de componenten,
-          die vervolgens door backend developers werden omgezet in Ektron
-          component.
+          die vervolgens door backend developers werden omgezet in Ektron.
         </div>
       </li>
 
