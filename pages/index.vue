@@ -30,7 +30,7 @@ useSeoMeta({
         Accessibility
       </li>
       <li>Grafisch Vormgeving bij het Grafisch Lyceum Utrecht</li>
-      <li>Communicatie Systemen bij de Hoge school van Arnhem en Nijmegen</li>
+      <li>Communicatie Systemen bij de Hogeschool van Arnhem en Nijmegen</li>
     </ul>
   </div>
 </template>
